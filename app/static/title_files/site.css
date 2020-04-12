@@ -1,0 +1,75 @@
+body {
+  padding-top: 54px;
+}
+
+.player-container {
+  margin-top: 10em;
+  float: left;
+  margin-left: 4em;
+}
+
+#right {
+  float: right;
+  margin-left: 20px;
+  width: 15%;
+  height: 5%;
+}
+
+.navbar a{
+    font-family: "Lucida Console" !important;
+}
+
+#player div{
+  font-family: "Lucida Console" !important;
+}
+
+#page {
+  position: relative;
+}
+
+.above
+{
+  position: relative;
+}
+
+.wrap
+{
+  white-space: pre-wrap;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}#center {
+  margin: 0 auto;
+}
+
+.margin_top {
+
+  margin-top: 2em;
+
+}
+
+.margin_top_text {
+
+  margin-top: 0.5em;
+
+}
+
+.text-centre {
+  text-align: center;
+}
+
+#tv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+  width: 100%;
+  height: 100%;
+}

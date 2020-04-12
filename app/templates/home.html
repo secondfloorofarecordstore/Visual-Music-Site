@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top above">
+  <div class="container">
+    <a class="navbar-brand" href="/">The Best Years of Your Life?</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Visual Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/interviews">The Interviews</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <canvas id="tv"></canvas>
+    <div class="container margin_top above">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_xQKWnvtg6c"></iframe>
+      </div>
+    </div>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='tv.js') }}" ></script>
+
+
+{% endblock %}
